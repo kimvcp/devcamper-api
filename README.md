@@ -40,4 +40,3 @@ Extensive documentation with examples [Postman documentation](https://documenter
 
 - Version: 1.0.0
 - License: MIT
-- Author: Brad Traversy
