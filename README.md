@@ -1,4 +1,6 @@
-# DevCamper API (ONLY EDUCATION PURPOSES)
+# DevCamper API (EDUCATION PURPOSES)
+
+# DevCamper API
 
 > Backend API for DevCamper application, which is a bootcamp directory website
 
@@ -9,18 +11,35 @@ Rename "config/config.env.env" to "config/config.env" and update the values/sett
 ## Install Dependencies
 
 ```
-yarn install
+npm install
 ```
 
-## Run Application
+## Run App
 
 ```
-# Run in development mode
-yarn dev
+# Run in dev mode
+npm run dev
 
-# Run in production mode
-yarn start
+# Run in prod mode
+npm start
 ```
+
+## Database Seeder
+
+To seed the database with users, bootcamps, courses and reviews with data from the "\_data" folder, run
+
+```
+# Destroy all data
+node seeder -d
+
+# Import all data
+node seeder -i
+```
+
+## Demo
+
+Extensive documentation with examples [Postman documentation](https://documenter.getpostman.com/view/16316544/TzseKSY8)
 
 - Version: 1.0.0
 - License: MIT
+- Author: Brad Traversy
